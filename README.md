@@ -106,14 +106,14 @@ Condition 3:
 
 <b>Multiple condition</b>
 <br>
-<i>if (user.getUsername()!=null && user.getEmail()!=null && !allUsers.contains(user.getUsername()))</i>
+<i>if (user.getUsername()!=null && user.getEmail()!=null && !allUsers.contains(user.getUsername()))</i><br>
 Тестови за услов 1:
 <br>
 1. Потребно е сите три проверки да бидат точни. Во овој случај функцијата враќа true. 
 2. Првата проверка е false, другите не се проверуваат. Функцијата враќа false.
 3. Првата проверка е true, втората е false, другите не се проверуваат. Функцијата враќа false.
 4. Првата проверка е true, втората е true, третата е false. Функцијата враќа false.
-<br>
+
 <br>
 <i>if (atChar && user.getEmail().charAt(i)=='.')</i> <i>if (atChar && dotChar)</i>
 <br>
