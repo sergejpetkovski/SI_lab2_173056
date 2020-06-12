@@ -17,6 +17,28 @@
 <b>Multiple condition</b>
 <br>
 
+<b>if (user.getUsername()!=null && user.getEmail()!=null && !allUsers.contains(user.getUsername()))</b>
+<table>
+  <tr>
+  <th>Combination</th>
+    <th>Test case</th>
+    <th>Branch</th>
+  </tr>
+  <tr>
+    <td>TTT</td> <td>user.getUsername()=="sergej" && user.getEmail()=="sergej.petkovski@finki.mk" && !allUsers.contains(user.getUsername())</td> <td>2-3</td>
+  </tr>
+  <tr>
+    <td>FXX</td> <td>user.getUsername()==null</td> <td>2-11</td>
+  </tr>
+  <tr>
+    <td>TFX</td> <td>user.getUsername()=="sergej" && user.getEmail()==null</td> <td>2-11</td>
+  </tr>
+  <tr>
+    <td>TTF</td> <td>user.getUsername()=="sergej" && user.getEmail()=="sergej.petkovski@finki.mk" && !allUsers.contains(user.getUsername())==false</td> <td>2-11</td>
+  </tr>
+</table>
+
+
 
 <b>Every branch</b>
 <br>
