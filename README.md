@@ -9,14 +9,6 @@
 ### Цикломатска комплексност
 Цикломатската комплексност на овој код е 7, истата ја добив преку формулата P+1, каде што P е бројот на предикатни јазли. Во случајoв P=6, па цикломатската комплексност изнесува 7.
 ### Тест случаи според критериумот Multiple condition
-
-
-### Тест случаи според критериумот Every branch
-
-### Објаснување на напишаните unit tests
-<b>Multiple condition</b>
-<br>
-
 <b>if (user.getUsername()!=null && user.getEmail()!=null && !allUsers.contains(user.getUsername()))</b>
 <table>
   <tr>
@@ -37,6 +29,11 @@
     <td>TTF</td> <td>user.getUsername()=="sergej" && user.getEmail()=="sergej.petkovski@finki.mk" && !allUsers.contains(user.getUsername())==false</td> <td>2-11</td>
   </tr>
 </table>
+
+### Тест случаи според критериумот Every branch
+
+### Објаснување на напишаните unit tests
+
 
 
 
