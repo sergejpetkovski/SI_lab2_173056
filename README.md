@@ -76,6 +76,28 @@ Condition 3:
 </table>
 
 ### Тест случаи според критериумот Every branch
+<br>
+<table>
+  <tr>
+    <th>Test case</th>
+    <th>Branch</th>
+  </tr>
+  <tr>
+    <td>user == null</td> <td>1-11</td> 
+  </tr>
+  <tr>
+    <td>user.getUsername()=="sergej" && user.getEmail()=="sergej.petkovski@finki.mk" && !allUsers.contains(user.getUsername()) </td> <td>1-2, 2-3, 3-4.1, 4.1-4.2, 4.2-5, 5-6, 6-7, 7-8, 7-4.3, 8-4.3, 5-7, 4.3-4.2, 4.2-9, 9-10</td> 
+  </tr>
+  <tr>
+    <td>user.getUsername() == null</td> <td>1-2, 2-11</td>
+  </tr>
+  <tr>
+    <td>user.getEmail()=="sergej.petkovski@finkimk"</td> <td>1-2, 2-3, 3-4.1, 4.1-4.2, 4.2-5, 5-6, 6-7, 7-8, 7-4.3, 8-4.3, 5-7, 4.3-4.2, 4.2-9, 9-11</td>
+  </tr>
+</table>
+
+
+
 
 ### Објаснување на напишаните unit tests
 
